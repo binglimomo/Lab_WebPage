@@ -1,0 +1,41 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-size: 12px;
+}
+body{
+	background-color:#CCCCCC;
+	z-index:-100;
+}
+#topDiv{
+	width: 100%;
+	height: 45px;
+	background:url(../img/top_bg.jpg) repeat-x;
+}
+.titleDiv{
+	width: 1000px;
+	height: 45px;
+	margin: 0 auto;
+}
+.title_left{
+	line-height: 45px;
+	float: left;
+	font-size: 25px;
+	font-weight: bold;
+}
+.title-right{
+	line-height: 45px;
+	float: right;
+	font-size: 15px;
+}
+#bodyDiv{
+	width: 1000px;
+	height: 700px;
+	margin: 0 auto;
+	background-color: yellow;
+}
+#footDiv{
+	width: 100%;
+	height: 50px;
+	background-color: blue;
+}
