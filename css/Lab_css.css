@@ -2,40 +2,36 @@
 	padding: 0;
 	margin: 0;
 	font-size: 12px;
-}
+}	
 body{
-	background-color:#CCCCCC;
-	z-index:-100;
+	background:url(../img/body_bg.jpg) no-repeat;
 }
 #topDiv{
 	width: 100%;
-	height: 45px;
-	background:url(../img/top_bg.jpg) repeat-x;
-}
-.titleDiv{
-	width: 1000px;
-	height: 45px;
-	margin: 0 auto;
-}
-.title_left{
-	line-height: 45px;
-	float: left;
-	font-size: 25px;
-	font-weight: bold;
-}
-.title-right{
-	line-height: 45px;
-	float: right;
-	font-size: 15px;
+	height: 50px;
+	background-color:rgba(0,0,0,0.4);
 }
 #bodyDiv{
-	width: 1000px;
-	height: 700px;
-	margin: 0 auto;
-	background-color: yellow;
+	width: 100%;
+	height: 714px;
 }
 #footDiv{
 	width: 100%;
-	height: 50px;
-	background-color: blue;
+	height: 30px;
+	background-color:#CCCCCC;
+	font-size:10px;
+	line-height:30px;
+	text-align:center;
 }
+.titleDiv{
+	width: 1000px;
+	height: 50px;
+	margin: 0 auto;
+}
+.title_left{
+	float: left;
+}
+.title-right{
+	float: right;
+}
+
