@@ -2,6 +2,8 @@
 	padding: 0;
 	margin: 0;
 	font-size: 12px;
+	font-weight:bold;
+	text-align:justify;
 }	
 body{
 	background:url(../img/body_bg.jpg) no-repeat;
@@ -11,15 +13,22 @@ body{
 	height: 50px;
 	background-color:rgba(0,0,0,0.4);
 }
-#bodyDiv{
+#bodyDiv_index{
 	width: 100%;
-	height: 714px;
+	height: 803px;
+}
+#bodyDiv_intro{
+	width: 100%;
+	height: 923px;
+}
+#bodyDiv_acad{
+	width: 100%;
+	height: 803px;
 }
 #footDiv{
 	width: 100%;
 	height: 30px;
 	background-color:#CCCCCC;
-	font-size:10px;
 	line-height:30px;
 	text-align:center;
 }
@@ -33,5 +42,81 @@ body{
 }
 .title-right{
 	float: right;
+	line-height:30px;
 }
+.title-right a{
+	font-size:20px;
+}
+/*主页页面*/
+#index_info{
+	width:1200px;
+	height:400px;
+	margin:200px auto;
+}
+.wel_txt{
+	font-size:50px;
+	font-family:"Courier New", Courier, monospace;
+}
+.lab_txt{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:70px;
+	text-shadow:-3px 0 4px #006;
+}
+.info_txt{
+	font-size:30px;
+	font-family:"新宋体";
+	padding-top:50px;
+}
+
+/*Lab简介页面*/
+#intro_info{
+	width:1040px;
+	height:600px;
+	margin:80px auto;
+}
+.body_menu_left{
+	float:left;
+	height:300px;
+	width:140px;
+	background:rgba(255,174,185,0.3);
+}
+.body_menu_left a{
+	font-size:20px;
+	color:#0066FF;
+}
+.body_info_right{
+	float:right;
+	width:850px;
+}
+.body_info_right_1{
+	background:rgba(102,205,170,0.5);
+	border:solid 1px #000000;
+	border-collapse:collapse;
+	border-radius:15px;
+	display:none;
+}
+.body_info_right_1 h3{
+	font-weight:bold;
+	padding-left:15px;
+}
+.body_info_right_1 p{
+	font-size:14px;
+	padding:15px;
+}
+.body_info_right_1 div{
+	text-align:center;
+}
+.body_info_right_1 .info_img{
+	max-width:300px;
+	max-height:280px;
+}
+.body_info_right_2 .tea_img{
+	max-width:100px;
+	max-height:100px;
+}
+.body_info_right_2 .panel-body p{
+	padding-left:115px;
+}
+
+
 
