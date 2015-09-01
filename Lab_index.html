@@ -9,6 +9,22 @@
 	<link rel="stylesheet" type="text/css" href="css/Lab_css.css">
 </head>
 <body>
+        <div class="modal fade" id="showMessage">
+		    <div class="modal-dialog">
+		        <div class="modal-content">
+		        	<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+						<h3 class="modal-title text-center">提示信息</h3>
+					</div>
+					<div class="modal-body">
+						<p class="text-center">该内容尚未公开！</p>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+					</div>
+				</div>
+			</div>
+        </div>
 	<!--导航-->
 	<div id="topDiv">
 		<div class="titleDiv">
@@ -17,7 +33,7 @@
 				<ul class="nav nav-pills">
 					<li class="active"><a href="#top">首页</a></li>
 					<li><a href="Lab_intro.html">Lab简介</a></li>
-					<li><a href="Lab_acad.html">学术信息</a></li>
+					<li><a href="#showMessage">学术信息</a></li>
 				</ul>
 			</div>
 		</div>
@@ -35,6 +51,8 @@
 
 	<script src="js/jquery-1.11.3.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
+	<script src="http://cdn.bootcss.com/bootstrap/2.3.1/js/bootstrap-transition.js"></script>
+	<script src="http://cdn.bootcss.com/bootstrap/2.3.1/js/bootstrap-modal.js"></script>
 	<script src="js/Lab_js.js" type="text/javascript"></script>
 </body>
 </html>

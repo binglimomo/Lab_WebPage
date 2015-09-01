@@ -47,7 +47,7 @@ body{
 .title-right a{
 	font-size:20px;
 }
-/*��ҳҳ��*/
+/*Ö÷Ò³Ò³Ãæ*/
 #index_info{
 	width:1200px;
 	height:400px;
@@ -64,11 +64,11 @@ body{
 }
 .info_txt{
 	font-size:30px;
-	font-family:"������";
+	font-family:"ÐÂËÎÌå";
 	padding-top:50px;
 }
 
-/*Lab���ҳ��*/
+/*Lab¼ò½éÒ³Ãæ*/
 #intro_info{
 	width:1040px;
 	height:600px;
@@ -79,6 +79,9 @@ body{
 	height:300px;
 	width:140px;
 	background:rgba(255,174,185,0.3);
+}
+.body_menu_left_selected{
+	background:rgba(144,238,144,0.4);
 }
 .body_menu_left a{
 	font-size:20px;
@@ -93,7 +96,6 @@ body{
 	border:solid 1px #000000;
 	border-collapse:collapse;
 	border-radius:15px;
-	display:none;
 }
 .body_info_right_1 h3{
 	font-weight:bold;
@@ -110,6 +112,9 @@ body{
 	max-width:300px;
 	max-height:280px;
 }
+.body_info_right_2{
+	display:none;
+}
 .body_info_right_2 .tea_img{
 	max-width:100px;
 	max-height:100px;
@@ -117,6 +122,48 @@ body{
 .body_info_right_2 .panel-body p{
 	padding-left:115px;
 }
+.body_info_right_2 .panel-title a{
+	font-size:20px;
+}
+#collapseOne,.body_info_right_2 .panel-heading1{
+	background:#dff0d8;
+}
+#collapseTwo,.body_info_right_2 .panel-heading2{
+	background:#B2DFEE;
+}
+#collapseThree,.body_info_right_2 .panel-heading3{
+	background:#FFC0CB;
+}
+.body_info_right_3{
+	background:rgba(135,206,250,0.5);
+	border:solid 1px #000000;
+	border-collapse:collapse;
+	border-radius:10px;
+	display: none;
+}
+.body_info_right_3 .stu_img{
+	max-height:80px;
+	max-width:80px;
+}
+.body_info_right_3 .img_td{
+	text-align: center;
+	width: 100px;
+}
+.body_info_right_3 td{
+	font-size: 14px;
+	padding: 20px;
+}
 
+/*学术信息页*/
+#showMessage .modal-header{
+	background:#00BFFF;
+	font-size: 18px;
+}
+#showMessage .modal-body p{
+	font-size: 14px;
+}
+#showMessage .modal-dialog{
+	top:200px;
+}
 
 
